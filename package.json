@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-gitbook-boilerplate",
+  "name": "gatsby-theme-gitbook",
   "private": true,
   "description": "Documentation, built with mdx",
   "author": "Praveen <praveen@hasura.io> (@praveenweb)",
@@ -71,5 +71,10 @@
     "gatsby-plugin-remove-trailing-slashes": "^2.1.17",
     "prettier": "^1.19.1",
     "prism-react-renderer": "^1.0.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.20.12",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
